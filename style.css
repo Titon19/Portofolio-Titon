@@ -1,0 +1,481 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(
+      at bottom right,
+      #f6f6ff 0,
+      #f6f6ff 25px,
+      rgba(246, 246, 255, 0.2) 25px,
+      rgba(246, 246, 255, 0.2) 50px,
+      rgba(246, 246, 255, 0.75) 50px,
+      rgba(246, 246, 255, 0.75) 75px,
+      rgba(246, 246, 255, 0.25) 75px,
+      rgba(246, 246, 255, 0.25) 100px,
+      rgba(246, 246, 255, 0.3) 100px,
+      rgba(246, 246, 255, 0.3) 125px,
+      rgba(246, 246, 255, 0.75) 125px,
+      rgba(246, 246, 255, 0.75) 150px,
+      rgba(246, 246, 255, 0.2) 150px,
+      rgba(246, 246, 255, 0.2) 175px,
+      transparent 175px,
+      transparent 200px
+    ),
+    radial-gradient(
+      at top left,
+      transparent 0,
+      transparent 25px,
+      rgba(246, 246, 255, 0.2) 25px,
+      rgba(246, 246, 255, 0.2) 50px,
+      rgba(246, 246, 255, 0.75) 50px,
+      rgba(246, 246, 255, 0.75) 75px,
+      rgba(246, 246, 255, 0.3) 75px,
+      rgba(246, 246, 255, 0.3) 100px,
+      rgba(246, 246, 255, 0.25) 100px,
+      rgba(246, 246, 255, 0.25) 125px,
+      rgba(246, 246, 255, 0.75) 125px,
+      rgba(246, 246, 255, 0.75) 150px,
+      rgba(246, 246, 255, 0.2) 150px,
+      rgba(246, 246, 255, 0.2) 175px,
+      #f6f6ff 175px,
+      #f6f6ff 200px,
+      transparent 200px,
+      transparent 500px
+    );
+  background-blend-mode: multiply;
+  background-size: 200px 200px, 200px 200px;
+  background-color: #ffffff;
+  /* background: radial-gradient(at bottom right, #fffef5 0, #fffef5 25px, rgba(255,254,245,0.2) 25px, rgba(255,254,245,0.2) 50px, rgba(255,254,245,0.75) 50px, rgba(255,254,245,0.75) 75px, rgba(255,254,245,0.25) 75px, rgba(255,254,245,0.25) 100px, rgba(255,254,245,0.3) 100px, rgba(255,254,245,0.3) 125px, rgba(255,254,245,0.75) 125px, rgba(255,254,245,0.75) 150px, rgba(255,254,245,0.2) 150px, rgba(255,254,245,0.2) 175px, transparent 175px, transparent 200px), radial-gradient(at top left, transparent 0, transparent 25px, rgba(255,254,245,0.2) 25px, rgba(255,254,245,0.2) 50px, rgba(255,254,245,0.75) 50px, rgba(255,254,245,0.75) 75px, rgba(255,254,245,0.3) 75px, rgba(255,254,245,0.3) 100px, rgba(255,254,245,0.25) 100px, rgba(255,254,245,0.25) 125px, rgba(255,254,245,0.75) 125px, rgba(255,254,245,0.75) 150px, rgba(255,254,245,0.2) 150px, rgba(255,254,245,0.2) 175px, #fffef5 175px, #fffef5 200px, transparent 200px, transparent 500px);
+background-blend-mode: multiply;
+background-size: 200px 200px, 200px 200px;
+background-color: #ffffff; */
+  color: #00078a;
+}
+
+.navbar {
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  background-color: white;
+}
+.navbar-scrolled {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Contoh bayangan */
+}
+
+.container a {
+  color: #00078a;
+}
+
+.nav-link {
+  color: #00078a;
+}
+
+.logo {
+  border-radius: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.gambar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home img {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#home {
+  padding-top: 150px;
+}
+
+.halo {
+  font-size: 30px;
+}
+.nama {
+  font-size: 60px;
+}
+
+.des {
+  text-align: justify;
+  margin: auto;
+}
+
+.btn.button {
+  color: #00078a;
+  border-color: #00078a;
+}
+
+.btn.button:hover,
+.btn.button.active {
+  color: white;
+  border-color: #00078a;
+  background-color: #00078a;
+}
+.text-more-info {
+  color: #00078a !important;
+}
+
+.panah img {
+  width: 60px;
+  height: 50px;
+  animation: 1.5s atasBawah infinite;
+}
+
+@keyframes atasBawah {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.row,
+.gambar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  padding-top: 170px;
+}
+
+.about-exp-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-exp-item-detail {
+  display: none;
+  text-align: justify;
+}
+
+.about-exp-item {
+  padding-top: 30px;
+}
+
+section {
+  position: relative;
+  padding-top: 128px;
+}
+
+section::before {
+  z-index: -1;
+  content: "";
+  font-size: 75px;
+  color: #00078a;
+  opacity: 0.25;
+  position: absolute;
+  font-weight: 700;
+  top: 70px;
+  /* right: 79.5%; */
+}
+
+.about::before {
+  content: "About";
+}
+
+.gPorto img {
+  width: 50%;
+  height: auto;
+}
+.imgPorto {
+  position: relative;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgPorto:hover:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 1s forwards;
+  /* Animasi fadeout */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.imgPorto:hover:after:hover {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.g1 {
+  grid-column: 1;
+}
+
+.g1:hover:after {
+  content: "HTML, CSS, JS";
+}
+.g2 {
+  grid-column: 2;
+}
+
+.g2:hover:after {
+  content: "PHP";
+}
+
+.g3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.g3:hover:after {
+  content: "Laravel";
+}
+
+.g4 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.g4:hover:after {
+  content: "MySQL";
+}
+
+.g5 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.g5:hover:after {
+  content: "Figma";
+}
+
+.g6 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.g6:hover:after {
+  content: "CorelDraw";
+}
+
+.gPorto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.porto {
+  padding-top: 170px;
+}
+
+.porto::before {
+  z-index: -1;
+  content: "";
+  font-size: 75px;
+  color: #00078a;
+  opacity: 0.25;
+  position: absolute;
+  font-weight: 700;
+  top: 70px;
+  /* right: 68%; */
+  content: "Portofolio";
+}
+
+.contact::before {
+  z-index: -1;
+  content: "";
+  font-size: 75px;
+  color: #00078a;
+  opacity: 0.25;
+  position: absolute;
+  font-weight: 700;
+  top: 70px;
+  /* right: 75.5%; */
+  content: "Contact";
+}
+
+.contact {
+  padding-top: 170px;
+  padding-bottom: 80px;
+}
+
+.gKontak {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.email,
+.in {
+  display: flex;
+}
+.email > img,
+.in > img {
+  width: 30px;
+  height: 30px;
+}
+
+.gKontak a,
+.email {
+  font-weight: 500;
+  color: #00078a;
+}
+
+.desPorto p {
+  text-align: justify;
+}
+@media only screen and (max-width: 992px) {
+  .halo {
+    font-size: 20px;
+  }
+  .nama {
+    font-size: 40px;
+  }
+
+  .home img {
+    width: 200px;
+    height: 200px;
+  }
+  .panah img {
+    height: 20px;
+  }
+
+  section::before {
+    font-size: 45px;
+    font-weight: 700;
+    top: 70px;
+    /* right: 80.5%; */
+  }
+
+  .about::before {
+    content: "About";
+  }
+
+  .porto::before {
+    font-size: 45px;
+    font-weight: 700;
+    top: 70px;
+    /* right: 69%; */
+    content: "Portofolio";
+  }
+
+  .contact::before {
+    font-size: 45px;
+    font-weight: 700;
+    top: 70px;
+    /* right: 76%; */
+  }
+  .imgPorto:hover:after {
+    font-size: 14px;
+  }
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #6c757d;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .halo {
+    font-size: 20px;
+  }
+  .nama {
+    font-size: 30px;
+  }
+
+  .home img {
+    width: 100%;
+    height: auto;
+  }
+  .panah img {
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .halo {
+    font-size: 16px;
+  }
+  .nama {
+    font-size: 24px;
+  }
+
+  .des p,
+  .desPorto p,
+  .about p,
+  .contact p,
+  .gKontak,
+  .des a,
+  .btn.button {
+    font-size: 14px;
+  }
+
+  .home img {
+    width: 100%;
+    height: auto;
+  }
+  .panah img {
+    height: 20px;
+  }
+  .about-exp-item-header {
+    display: block;
+  }
+
+  section::before,
+  .porto::before,
+  .contact::before {
+    font-size: 35px;
+    font-weight: 700;
+    top: 70px;
+    /* right: 80.5%; */
+  }
+
+  .about::before {
+    content: "About";
+  }
+
+  .porto::before {
+    /* right: 69%; */
+    content: "Portofolio";
+  }
+
+  .contact::before {
+    font-size: 35px;
+    /* right: 76%; */
+  }
+}
