@@ -478,4 +478,8 @@ section::before {
     font-size: 35px;
     /* right: 76%; */
   }
+  
+  .gKontak {
+    display: grid;
+  }
 }
